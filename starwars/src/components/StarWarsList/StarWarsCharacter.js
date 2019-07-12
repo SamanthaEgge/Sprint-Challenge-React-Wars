@@ -47,7 +47,7 @@ const StarWarsCharacter = (props) => {
                 </Button>
             </Card.Content>
         </Card>
-        <Modal dimmer='blurring' open={open} onClose={close}>
+        <Modal dimmer='blurring' size='tiny' open={open} onClose={close}>
           <Modal.Header>{world.name}</Modal.Header>
           <Modal.Content>
             <Modal.Description>
