@@ -33,12 +33,14 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
-      {characters.map(character => {
-        console.log(character)
-        return(
-          <StarWarsCharacter character={character} />
-        )
-      })}
+      <div className='starwars-list'>
+        {characters.map(character => {
+          console.log(character)
+          return(
+            <StarWarsCharacter character={character} />
+          )
+        })}
+      </div>
     </div>
   );
 }

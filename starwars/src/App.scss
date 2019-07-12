@@ -1,8 +1,27 @@
 .App {
-  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url('./sw-bg.jpg');
+  background-size: cover;
+
+  .Header {
+    color: #443e3e;
+    text-shadow: 1px 1px 5px #fff;
+    text-align: center;
+  }
+
+  .starwars-list {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &:first-child {
+      margin-top: 14px;
+  }
+  }
 }
-.Header {
-  color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
-}
-/* write your parent styles in here for your App.js */
+
