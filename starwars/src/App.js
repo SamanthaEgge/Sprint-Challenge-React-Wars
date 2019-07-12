@@ -37,9 +37,13 @@ const App = () => {
         {characters.map(character => {
           console.log(character)
           return(
-            <StarWarsCharacter character={character} />
+            <StarWarsCharacter
+            character={character} />
           )
         })}
+      </div>
+      <div className='starwars-pagination'>
+
       </div>
     </div>
   );
