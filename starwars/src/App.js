@@ -16,9 +16,10 @@ const App = () => {
 
   const fetchCharacters = () => {
         axios
-        .get('http https://swapi.co/api/people')
+        .get('https://swapi.co/api/people')
         .then(response => {
-          setCharacter(response.data);
+          setCharacter(response.data.results);
+          console.log(response.data.results)
         })
         .catch(err => {
           console.log(err);
@@ -32,6 +33,12 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
+      {characters.map(character => {
+        console.log(character)
+        return(
+          <StarWarsCharacter character={character} />
+        )
+      })}
     </div>
   );
 }
