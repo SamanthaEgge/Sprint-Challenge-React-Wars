@@ -102,6 +102,6 @@ mass: "77"
 name: "Luke Skywalker"
 skin_color: "fair"
 species: ["https://swapi.co/api/species/1/"]
-starships: (2) ["https://swapi.co/api/starships/12/", "https://swapi.co/api/starships/22/"]
+starships: (2) [""https://swapi.co/api/starships/12/, "https://swapi.co/api/starships/22/"]
 url: "https://swapi.co/api/people/1/"
 vehicles: (2) ["https://swapi.co/api/vehicles/14/",

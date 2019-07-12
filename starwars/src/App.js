@@ -24,7 +24,6 @@ const App = () => {
         .then(response => {
           // Need this to be response.data for pagination
           setCharacters(response.data.results);
-          console.log(response.data)
         })
         .catch(err => {
           console.log(err);
@@ -32,7 +31,10 @@ const App = () => {
       };
   
     useEffect(() => {
-      fetchCharacters();
+      fetchCharacters(setCharacters)
+
+      // const display = characters.results
+      // setDisplay(display)
     }, []);
 
   // const fetchPage = (url) => {
@@ -42,7 +44,6 @@ const App = () => {
   //   .then(response => {
   //     setCharacters(response.data);
   //     console.log('hit .then in fetchpage')
-  //     console.log(response.data.results)
   //   })
   //   .catch(err => {
   //     console.log('hit fetchPageError')
@@ -51,8 +52,12 @@ const App = () => {
   // };
 
   // useEffect(() => {
-  //   setDisplay(characters.results)
+  //   const display = characters.results
+  //   setDisplay(display)
   //   setLoading(false)
+  //   console.log('use effect, setDisplay',displayCharacters
+  //   )
+  //   console.log('useEffect character.results',characters.results)
   // }, [characters])
 
   // if (loading === true) {

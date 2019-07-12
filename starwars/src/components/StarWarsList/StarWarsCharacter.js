@@ -38,6 +38,9 @@ const StarWarsCharacter = (props) => {
                     <p><strong>Birth Year: </strong>{props.character.birth_year}</p>
                     <p><strong>Gender: </strong>{props.character.gender}</p>
                     <p><strong>Height: </strong>{props.character.height}</p>
+                    <p><strong>Skin Color: </strong>{props.character.skin_color}</p>
+                    <p><strong>Hair Color: </strong>{props.character.hair_color}</p>
+                    <p><strong>Eye Color: </strong>{props.character.eye_color}</p>
                 </Card.Description>
             </Card.Content>
             <Card.Content>
