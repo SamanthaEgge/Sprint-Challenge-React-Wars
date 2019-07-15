@@ -87,3 +87,21 @@ It is better to submit a challenge that meets [MVP](https://en.wikipedia.org/wik
   - You can build a function that will get characters called `getCharacters` that you can use dynamically to get the next or previous set of characters. You would need to supply it with the proper fields, and you'll need to set up more state to do this
 
 - [ ] Build another app from scratch that looks very similar to this one. Inside of your main `App` component fetch some data in this same fashion from this url `https://dog.ceo/dog-api/#all` you'll have to follow the documentation at that website and figure out how to change up the code you've seen here in this Star Wars app in order to properly fetch the data and store it on Component State.
+
+
+birth_year: "19BBY"
+created: "2014-12-09T13:50:51.644000Z"
+edited: "2014-12-20T21:17:56.891000Z"
+eye_color: "blue"
+films: (5) ["https://swapi.co/api/films/2/", "https://swapi.co/api/films/6/", "https://swapi.co/api/films/3/", "https://swapi.co/api/films/1/", "https://swapi.co/api/films/7/"]
+gender: "male"
+hair_color: "blond"
+height: "172"
+homeworld: "https://swapi.co/api/planets/1/"
+mass: "77"
+name: "Luke Skywalker"
+skin_color: "fair"
+species: ["https://swapi.co/api/species/1/"]
+starships: (2) [""https://swapi.co/api/starships/12/, "https://swapi.co/api/starships/22/"]
+url: "https://swapi.co/api/people/1/"
+vehicles: (2) ["https://swapi.co/api/vehicles/14/",
